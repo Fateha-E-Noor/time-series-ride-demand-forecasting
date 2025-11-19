@@ -23,7 +23,7 @@ Predict hourly ride demand using historical ride records so the platform can pre
 - Evaluation: MAE, RMSE, and visualizations (actual vs predicted)
 
 ## Results
-See the notebook `cse437projectnooo.ipynb` for detailed results, plots (feature importance and actual vs predicted), and discussion.
+See the notebook `time-series-ride-demand.ipynb` for detailed results, plots (feature importance and actual vs predicted), and discussion.
 
 ## How to run
 1. Clone the repo:
@@ -36,7 +36,7 @@ See the notebook `cse437projectnooo.ipynb` for detailed results, plots (feature 
    .\.venv\Scripts\Activate.ps1  # in PowerShell
    pip install -r requirements.txt
 
-3. Open the notebook `cse437projectnooo.ipynb` in Jupyter or VS Code and run all cells.
+3. Open the notebook `time-series-ride-demand.ipynb` in Jupyter or VS Code and run all cells.
 
 Notes: If the dataset is large it is NOT included. See `data/README.md` for steps to obtain or generate the data.
 

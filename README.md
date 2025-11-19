@@ -5,7 +5,7 @@
 ## Project overview
 - Problem: Predict hourly ride demand using historical ride data.
 - Why it matters: Better demand forecasting helps reduce rider wait times and improves driver utilization.
-- Approach: Time-series feature engineering + tree-based regression (example: RandomForestRegressor). See notebook for exact steps.
+- Approach: Time-series feature engineering + tree-based regression (example: RandomForestRegressor). 
 
 ## Problem statement
 Predict hourly ride demand using historical ride records so the platform can pre-position drivers and adjust pricing or incentives.

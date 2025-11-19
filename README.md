@@ -1,6 +1,6 @@
 # Ride-Sharing Demand Forecasting Using Machine Learning
 
-Short: Predict hourly ride demand using historical ride data to help ride-sharing platforms optimize driver allocation.
+ Predict hourly ride demand using historical ride data to help ride-sharing platforms optimize driver allocation.
 
 ## Project overview
 - Problem: Predict hourly ride demand using historical ride data.
@@ -11,7 +11,7 @@ Short: Predict hourly ride demand using historical ride data to help ride-sharin
 Predict hourly ride demand using historical ride records so the platform can pre-position drivers and adjust pricing or incentives.
 
 ## Dataset
-- Source: Not included in this repository (see `data/README.md` for how to obtain or prepare the dataset).
+- Source:kaggle (see `data/README.md` for how to obtain or prepare the dataset).
 - Features used: timestamp, location (zone), rolling lags, hour/day encodings, weather (if available).
 - Target variable: hourly ride count (or demand per zone/hour).
 
@@ -24,26 +24,5 @@ Predict hourly ride demand using historical ride records so the platform can pre
 
 ## Results
 See the notebook `time-series-ride-demand.ipynb` for detailed results, plots (feature importance and actual vs predicted), and discussion.
-
-## How to run
-1. Clone the repo:
-
-   git clone https://github.com/<your-username>/ride-sharing-demand-forecasting.git
-
-2. Create and activate a Python environment (recommended) and install dependencies:
-
-   python -m venv .venv
-   .\.venv\Scripts\Activate.ps1  # in PowerShell
-   pip install -r requirements.txt
-
-3. Open the notebook `time-series-ride-demand.ipynb` in Jupyter or VS Code and run all cells.
-
-Notes: If the dataset is large it is NOT included. See `data/README.md` for steps to obtain or generate the data.
-
-## Future improvements
-- Try LSTM or transformer-based models for sequence forecasting
-- Use external data like weather or events
-- Hyperparameter tuning and model ensembling
-- Compare with ARIMA/Prophet baselines
 
 

@@ -46,6 +46,4 @@ Notes: If the dataset is large it is NOT included. See `data/README.md` for step
 - Hyperparameter tuning and model ensembling
 - Compare with ARIMA/Prophet baselines
 
----
 
-If you'd like a different repo name from `ride-sharing-demand-forecasting`, tell me and I'll rename files/instructions.
